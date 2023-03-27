@@ -1,48 +1,87 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	  <div id="myCarousel" class="first-slide">
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+<title>Hello, world!</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+ 
+<body>
+	<!-- the entire body must be written by student -->
+	<div class="container">
+  <h2>Bootstrap Carousel</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- here carousel is changing the slide suddenly without any slide but slide is using for smooth transition or slide -->
+  
+  <!-- Wrapper for slides -->
+  <!-- which will wrap the slides instead of list one by one -->
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://cdn.acciojob.com/questions-data/Screen_Recording_2023-02-03_at_4_00_24_PM_AdobeExpress.gif" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://cdn.acciojob.com/questions-data/Screen_Recording_2023-02-03_at_4_00_24_PM_AdobeExpress.gif" class="d-block w-100" alt="...">
-    </div>
-    <div class="third-slide active">
-      <img src="https://cdn.acciojob.com/questions-data/Screen_Recording_2023-02-03_at_4_00_24_PM_AdobeExpress.giff" class="d-block w-100" alt="...">
-    </div>
-	     <div class="fourth-slide">
-      <img src="https://cdn.acciojob.com/questions-data/Screen_Recording_2023-02-03_at_4_00_24_PM_AdobeExpress.giff" class="d-block w-100" alt="...">
-    </div>
+ 
+ 
+  <div class="item first-slide">
+  <img src="https://image.shutterstock.com/image-vector/shopping-online-on-website-mobile-260nw-1206570103.jpg" id ="first_image" alt="Los Angeles" style="width:100%;">
+  <div class="carousel-caption">
+  <h3>First Slide</h3>
+  <p>This is first slide!</p>
   </div>
-
-		  
-  <button class="carousel-control" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-	  
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+  </div>
+ 
+ 
+  <div class="item second-slide">
+  <img src="https://image.freepik.com/free-vector/digital-marketing-concept-online-shopping-mobile-application_68971-367.jpg" id ="second_image" alt="Chicago" style="width:100%;">
+  <div class="carousel-caption">
+  <h3>Second Slide</h3>
+  <p>This is second slide!</p>
+  </div>
+  </div>
+  
+  <div class="item active third-slide">
+  <img src="https://image.shutterstock.com/image-photo/young-student-watching-lesson-online-260nw-1676998306.jpg" id ="third_image" alt="New York" style="width:100%;">
+  <div class="carousel-caption">
+  <h3>Third Slide</h3>
+  <p>This is third slide!</p>
+  </div>
+  </div>
+ 
+ 
+  <div class="item fourth-slide">
+  <img src="https://lh3.googleusercontent.com/proxy/IAgqXzs8j2pQrGYALfNmFGbn_O2Of6Bc0FGWLVrTJCge30MMXZlQdkYviNExlbgJsYCmdhJkIDLbMEATXQYh8zouE6CCICkV-hSUKpCH-8uKYs5r5RInD8tb1KZWVw" id ="fourth_image" alt="New York" style="width:100%;">
+  <div class="carousel-caption">
+  <h3>Fourth Slide</h3>
+  <p>This is fourth slide!</p>
+  </div>
+  </div>
+ 
+ 
+  <div class="item fifth-slide">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT3TmYe2w7n0B-5juuJFlR_9duENGn4QEEYSuzXvaPVViYnHYfYYhvccgW5dqV_6p-OKg&usqp=CAU" id ="fifth_image" alt="New York" style="width:100%;">
+  <div class="carousel-caption">
+  <h3>Fifth Slide</h3>
+  <p>This is fifth slide!</p>
+  </div>
+  </div>
+  
+  </div>
+ 
+ 
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span>
+  <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span>
+  <span class="sr-only">Next</span>
+  </a>
+  </div>
+ </div>
+	
+ 
+ 
+    <script type="text/javascript" src="./script.js">
+</script>
+ 
+</body>
+ 
 </html>
